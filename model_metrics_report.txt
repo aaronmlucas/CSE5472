@@ -1,0 +1,61 @@
+Model Metrics Report:
+
+Model: Gaussian Naive Bayes
+  Training Accuracy: 0.9955543297842193
+  Training Precision: 0.9985007811494123
+  Training Recall: 0.9955543297842193
+  Training F1: 0.9966497700164103
+  Testing Accuracy: 0.9955063002884469
+  Testing Precision: 0.9984472447728596
+  Testing Recall: 0.9955063002884469
+  Testing F1: 0.9965963093305897
+  Confusion Matrix: [[78110, 0, 0, 442, 0], [0, 19184, 0, 1, 0], [0, 0, 822, 0, 0], [0, 0, 0, 231, 1], [0, 0, 0, 0, 14]]
+  Training Time: 0.38265419006347656
+
+Model: Decision Tree
+  Training Accuracy: 1.0
+  Training Precision: 1.0
+  Training Recall: 1.0
+  Training F1: 1.0
+  Testing Accuracy: 0.9999493952735186
+  Testing Precision: 0.9999494199976106
+  Testing Recall: 0.9999493952735186
+  Testing F1: 0.9999486260003013
+  Confusion Matrix: [[78552, 0, 0, 0, 0], [0, 19185, 0, 0, 0], [1, 0, 821, 0, 0], [0, 0, 2, 230, 0], [0, 0, 0, 2, 12]]
+  Training Time: 3.0554168224334717
+
+Model: Random Forest
+  Training Accuracy: 1.0
+  Training Precision: 1.0
+  Training Recall: 1.0
+  Training F1: 1.0
+  Testing Accuracy: 0.9999898790547037
+  Testing Precision: 0.9999899224922373
+  Testing Recall: 0.9999898790547037
+  Testing F1: 0.9999897025125275
+  Confusion Matrix: [[78552, 0, 0, 0, 0], [0, 19185, 0, 0, 0], [0, 0, 822, 0, 0], [0, 0, 0, 232, 0], [0, 0, 0, 1, 13]]
+  Training Time: 15.01333498954773
+
+Model: Logistic Regression
+  Training Accuracy: 0.9998203514027773
+  Training Precision: 0.9997251647296683
+  Training Recall: 0.9998203514027773
+  Training F1: 0.9997726247083958
+  Testing Accuracy: 0.9998178229846668
+  Testing Precision: 0.9996807364929868
+  Testing Recall: 0.9998178229846668
+  Testing F1: 0.9997482313242126
+  Confusion Matrix: [[78552, 0, 0, 0, 0], [0, 19185, 0, 0, 0], [3, 0, 819, 0, 0], [1, 0, 0, 231, 0], [3, 0, 0, 11, 0]]
+  Training Time: 1.150329828262329
+
+Model: Neural Network
+  Training Accuracy: 1.0
+  Training Precision: 1.0
+  Training Recall: 1.0
+  Training F1: 1.0
+  Testing Accuracy: 1.0
+  Testing Precision: 1.0
+  Testing Recall: 1.0
+  Testing F1: 1.0
+  Confusion Matrix: [[78552, 0, 0, 0, 0], [0, 19185, 0, 0, 0], [0, 0, 822, 0, 0], [0, 0, 0, 232, 0], [0, 0, 0, 0, 14]]
+  Training Time: 118.87679147720337
